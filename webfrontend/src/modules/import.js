@@ -18,4 +18,4 @@ class MyClass {
     }
 }
 
-export { sum, square, variable, MyClass };
+export { sum, sub, square, variable, MyClass };
