@@ -1,10 +1,10 @@
 import {sum, square, variable, MyClass} from './import';
 
 // 25
-console.log(square(5));
+console.log(square(sum(12,7)));
 
 var cred = {
-    name: 'Ritesh Kumar2',
+    name: 'Ritesh Kumar',
     enrollmentNo: 11115078
 }
 
