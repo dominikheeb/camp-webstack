@@ -1,4 +1,6 @@
-﻿FROM microsoft/aspnetcore
+﻿FROM microsoft/dotnet
 WORKDIR /app
-COPY . .
 ENTRYPOINT ["dotnet", "RestApi.dll"]
+ENV ASPNETCORE_URLS http://+:80
+EXPOSE 80
+COPY . .
