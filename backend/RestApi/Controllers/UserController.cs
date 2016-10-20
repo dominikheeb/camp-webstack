@@ -11,7 +11,7 @@ namespace RestApi.Controllers
     [RoutePrefix("api/user")]
     public class UserController : ApiController
     {
-        private readonly UserService _userService;
+        private readonly IUserService _userService;
 
         public UserController()
         {
