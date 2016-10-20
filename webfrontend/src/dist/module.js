@@ -59,4 +59,6 @@ var x = new _import.MyClass(cred);
 //Ritesh Kumar
 console.log(x.getName());
 
+document.getElementById("container").appendChild(document.createTextNode("Hello " + cred.name));
+
 },{"./import":1}]},{},[2]);
