@@ -12,3 +12,5 @@ var x = new MyClass(cred);
 
 //Ritesh Kumar
 console.log(x.getName());
+
+document.getElementById("container").appendChild(document.createTextNode("Hello " + cred.name));
