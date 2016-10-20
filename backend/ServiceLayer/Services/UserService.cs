@@ -3,7 +3,7 @@ using ServiceLayer.Dto;
 
 namespace ServiceLayer.Services
 {
-    public class UserService
+    public class UserService : IUserService
     {
         public ICollection<UserDto> GetAllUser()
         {
