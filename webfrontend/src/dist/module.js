@@ -10,6 +10,10 @@ var sum = function sum(a) {
     return a + b;
 };
 
+var sub = function sub(a, b) {
+    return a - b;
+};
+
 var square = function square(b) {
     return b * b;
 };
@@ -32,6 +36,7 @@ var MyClass = (function () {
 })();
 
 exports.sum = sum;
+exports.sub = sub;
 exports.square = square;
 exports.variable = variable;
 exports.MyClass = MyClass;
@@ -42,7 +47,7 @@ exports.MyClass = MyClass;
 var _import = require('./import');
 
 // 25
-console.log(_import.square(5));
+console.log(_import.square(_import.sum(12, 7)));
 
 var cred = {
     name: 'Ritesh Kumar',
