@@ -1,4 +1,4 @@
-﻿FROM microsoft/dotnet:1.0.0-preview2-windowsservercore-sd
+﻿FROM microsoft/dotnet:nanoserver-core
 WORKDIR /app
 ENTRYPOINT ["dotnet", "RestApi.dll"]
 ENV ASPNETCORE_URLS http://+:80
